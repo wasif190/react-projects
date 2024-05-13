@@ -44,7 +44,7 @@ function RecipeSection({recipe, setSearchRecipe, loading}) {
                 </section>
                 : 
                 <div 
-                    className='bg-gray-300 rounded py-2 px-8 w-[30%] mx-auto text-center mt-[80px] cursor-pointer'
+                    className='bg-gray-300 rounded py-2 px-8 sm:w-[30%] mx-auto text-center mt-[80px] cursor-pointer'
                     onClick={() => setSearchRecipe(inputValue)}
                 >
                     No Recipe Found
