@@ -1,11 +1,20 @@
-- apiKey = e7280a333a94415c8205a4432cf76d06
-- query = chicken
+# API Key
 
-https://api.spoonacular.com/recipes/716429/information?apiKey=e7280a333a94415c8205a4432cf76d06&iquery=chicken
+F6sMxTPfVDdFIlhc3eIGAw==IVXIcUkt6T6tPhcl
 
-## Usage
+690399122116554775c53e093e880cce
 
-Get request:
-https://api.spoonacular.com/recipes/complexSearch?apiKey&query=chicken&cuisine=indian
+# Recipe tracker
 
-https://api.spoonacular.com/recipes/716429/information?apiKey=e7280a333a94415c8205a4432cf76d06&includeNutrition=true
+- Handling api
+- Search recipe
+
+<!-- Todo -->
+
+- Like & unlike recipe
+- Try to make it more complex like adding category, or area wise search result (complex api handlening)
+
+<!-- One Step ahead -->
+
+- When click on particular recipe -> Router - Info page about that recipe
+- Or, You should have a category cards when clicked - another page (route) for recipies card related to that category - Click info page about that category

@@ -14,7 +14,7 @@ function RecipeSection({recipe, setSearchRecipe, loading}) {
     }
 
     return (
-        <main id='recipeSection' className='px-[9%] sm:pt-[160px] pt-[80px] sm:pb-[120px] pb-[60px]'>
+        <main className='px-[9%] pt-[160px] sm:pb-[120px] pb-[60px]'>
             <header className='text-center text-4xl font-bold'>
                 <h1>Explore Recipe</h1>
             </header>
@@ -29,7 +29,7 @@ function RecipeSection({recipe, setSearchRecipe, loading}) {
                     value={inputValue}
                     onChange={handleInputChange}
                 />
-                <button className='bg-yellow-500 py-2 px-6 rounded-r' onClick={handleSearch}>
+                <button className='bg-yellow-400 py-2 px-6 rounded-r' onClick={handleSearch}>
                     Search
                 </button>
             </form>

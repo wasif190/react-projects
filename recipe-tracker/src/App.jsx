@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Header from './Components/Header'
-import HeroSection from './Components/HeroSection'
 import RecipeSection from './Components/RecipeSection'
-import Footer from './Components/Footer'
-import { Route, Routes } from 'react-router-dom'
+import HeroSection from './Components/HeroSection';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -37,7 +35,6 @@ function App() {
       <Header/>
       <HeroSection/>
       <RecipeSection recipe={recipe} setSearchRecipe={setSearchRecipe} loading={loading}/>
-      <Footer/>
     </div>
   )
 }

@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 
 function HeroSection() {
   return (
-    <main id='heroSection' className='flex justify-between px-[9%] xl:items-center xl:pt-0 pt-[150px] gap-[10rem] bg-sky-100 xl:h-screen mobile:h-[120vh] h-screen relative'>
+    <main id='heroSection' className='flex bg-gradient-to-b from-sky-100 to-transparent justify-between px-[9%] xl:items-center xl:pt-0 pt-[150px] gap-[10rem] xl:h-screen mobile:h-[120vh] h-screen relative'>
       <section className='xl:w-[50%] w-full z-20'>
         <h1 className='text-5xl font-bold'>Explore best food for your taste</h1>
         <p className='py-8 mobile:text-start text-justify'>
@@ -33,7 +33,7 @@ function HeroSection() {
           </button>
         </Link>
       </section>
-      <section className='xl:w-[550px] sm:w-[420px] w-[80%] xl:top-[20%] md:top-[30%] top-[420px] absolute md:right-[9%] right-[2%] z-10'>
+      <section className='animated-image xl:w-[550px] sm:w-[420px] w-[80%] xl:top-[20%] md:top-[30%] top-[420px] absolute md:right-[9%] right-[2%] z-10'>
         <img src={heroImg}/>
       </section>
     </main>

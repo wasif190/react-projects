@@ -24,3 +24,22 @@ ul li {
 .active {
     color: #ea3e09;
 }
+
+@keyframes scaleAndBounce {
+    0% {
+      transform: scale(1);
+      rotate: 0deg;
+    }
+    50% {
+      rotate: 2deg;
+      transform: scale(1.01);
+    }
+    100% {
+      transform: scale(1);
+      rotate: 0deg;
+    }
+}
+
+.animated-image {
+    animation: scaleAndBounce 2s ease-in-out infinite;
+}
