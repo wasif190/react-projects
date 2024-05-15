@@ -31,7 +31,7 @@ ul li {
       rotate: 0deg;
     }
     50% {
-      rotate: 2deg;
+      rotate: 1deg;
       transform: scale(1.01);
     }
     100% {
