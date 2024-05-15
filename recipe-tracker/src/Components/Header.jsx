@@ -8,7 +8,7 @@ function Header() {
       <section className='w-[100px]'>
         <img src={Logo}/>
       </section>
-      <ul className='flex gap-[3rem] text-[1.1rem]'>
+      <ul className='md:flex hidden gap-[3rem] text-[1.1rem]'>
         <li>
           <Link
             to="heroSection"
